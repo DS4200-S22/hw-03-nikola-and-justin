@@ -1,5 +1,5 @@
 html {
-  font: arial;
+  font-family: Arial;
 }
 
 h1 {
@@ -7,10 +7,13 @@ h1 {
 }
 
 img {
+  height: 80%;
+  width: 100%;
 }
 
 p {
   padding: 5rem 5rem 5rem 5rem;
+  max-width: 100%;
 }
 
 .flex-container {
@@ -19,7 +22,35 @@ p {
   justify-content: space-evenly;
 }
 
+.flex-container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .flex-item {
+  width: 40%;
+  height: 40%;
   border: 10px;
   border-style: solid;
+}
+
+.rect {
+  fill: aqua;
+}
+
+.rect:hover {
+  fill: blueviolet;
+}
+
+.circle {
+  fill: chartreuse;
+}
+
+.circle:hover {
+  fill: deeppink;
+}
+
+.acknowledgments {
+  font-size: smaller;
+  text-align: center;
 }
