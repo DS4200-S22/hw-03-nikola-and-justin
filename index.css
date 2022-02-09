@@ -20,11 +20,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  row-gap: 15px;
 }
 
 .flex-container2 {
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .flex-item {
